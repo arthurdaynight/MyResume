@@ -1,0 +1,81 @@
+.medivalcontainer{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50.5%;
+    margin-inline-start: -.6%;
+
+}
+.woodFrame {
+    width: 100vw;
+    height: 10vh;
+    
+}
+
+.castleblue{
+    width: 100vw;
+    height: 60vh;
+}
+
+
+.dragon {
+    position: absolute;
+    width: 7rem;
+    z-index: 7;
+    margin-inline-start: 55.59vw;
+    margin-block-start: 20.5%;
+    animation: dragon 120s infinite;
+}
+
+@keyframes dragon {
+    0% {margin-inline-start: 55.59vw;
+        margin-block-start: 20.5%; transform:rotate(0deg); z-index: -1
+       }
+       10%{margin-inline-start: 50.59vw;
+        margin-block-start: 15.5%;transform:rotate(10deg); z-index: -1
+       }
+
+    20%{margin-inline-start: 55.59vw;
+        margin-block-start: 10.5%;transform:rotate(10deg); z-index: -1
+       }
+       30%{margin-inline-start: 55.59vw;
+        margin-block-start: 20.5%;transform:rotate(10deg); z-index: -1
+       }
+
+    40%{margin-inline-start: 45.59vw;
+        margin-block-start: 20.5%;transform:rotate(0deg);  z-index: -1;
+       }
+       42%{margin-inline-start: 40.59vw;
+        margin-block-start: 25.5%;transform:rotate(0deg); z-index: -1;}
+    45% {margin-inline-start: 55.59vw; 
+        margin-block-start: 30.5%;transform:rotate(10deg);  z-index: -1;
+       }   
+    50%{margin-inline-start: 55.59vw;
+        margin-block-start: 20.5%; transform:rotate(0deg); z-index: -1}
+    55% {margin-inline-start: 55.59vw;
+            margin-block-start: 20.5%; transform:rotate(0deg); z-index: 7;
+           }
+           60%{margin-inline-start: 50.59vw;
+            margin-block-start: 15.5%;transform:rotate(10deg);  z-index: 7;
+           }
+    
+        70%{margin-inline-start: 55.59vw;
+            margin-block-start: 10.5%;transform:rotate(10deg);  z-index: 7;
+           }
+           75%{margin-inline-start: 55.59vw;
+            margin-block-start: 20.5%;transform:rotate(10deg);  z-index: 7;
+           }
+    
+        80%{margin-inline-start: 45.59vw;
+            margin-block-start: 20.5%;transform:rotate(0deg);  z-index: -1;  z-index: 7;
+           }
+           85%{margin-inline-start: 40.59vw;
+            margin-block-start: 25.5%;transform:rotate(0deg);  z-index: 7;}
+        90% {margin-inline-start: 55.59vw; 
+            margin-block-start: 30.5%;transform:rotate(10deg);   z-index: 7;
+           }   
+        100%{margin-inline-start: 55.59vw;
+            margin-block-start: 20.5%; transform:rotate(0deg);  z-index: 7;
+          
+    }
+}

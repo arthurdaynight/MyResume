@@ -1,0 +1,54 @@
+
+.icons {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+}
+.gap {
+display: grid;
+grid-template-areas: "b .";
+
+}
+
+
+
+.gap2 {
+
+    display: grid;
+    gap: 1rem;
+    grid-template-rows: [first] 2.5rem [second] 2.5rem [third] 2.5rem; 
+    grid-template-areas: ". frist second third";
+}
+
+    
+.first, .second, .third {
+    
+    margin-top: .25rem;
+
+}
+
+
+.bar {
+    position: absolute;
+    margin-block-start: -0.6%;
+    margin-inline-start: -.6%;
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+   height: 2.5rem;
+   width: 100%;
+
+}
+.b {
+place-self: end;
+    width: 2rem;
+height: 2rem;
+border-radius: 50%;
+margin-top: .25rem;
+ margin-left: 50%;   
+}
+html {
+    background-color: #2853AC;
+    width: 100%;
+    font-family: 'Inter';
+}

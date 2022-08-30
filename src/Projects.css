@@ -1,0 +1,58 @@
+
+.projectContainer1{
+    display: flex;
+    width: 99vw;
+position: absolute;
+top: 125%;
+justify-content: space-around;
+
+}
+
+.projectContainer2{
+display: flex;
+width: 99vw;
+position: absolute;
+top: 175%;
+justify-content: space-around;
+
+}
+.html {
+    width: 13vw;
+    border-radius: 15%;
+}
+
+.css {
+    width: 10vw;
+    border-radius: 15%;
+}
+.jv {
+    width: 13vw;
+    border-radius: 15%;
+}
+.linkedin {
+    width: 9vw;
+    height: 9vw;
+    border-radius: 50%;
+    align-self: center;
+
+}
+.ai {
+    width: 13vw;
+    border-radius: 15%;}
+.github {
+    width: 9vw;
+    height: 9vw;
+    border-radius: 51%;
+align-self: center;
+justify-self: start;
+}
+.html:hover, .ai:hover, .css:hover, .jv:hover{
+    width: 15vw;
+}
+
+.linkedin:hover, .github:hover {
+    width: 12vw;
+    height: 12vw;
+
+}
+

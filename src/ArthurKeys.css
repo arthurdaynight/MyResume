@@ -1,0 +1,82 @@
+@media only screen and (max-width: 500px) {
+    
+.name {
+    color:black;
+    font-size: 3rem;
+    border: 10px #C70039 solid;
+    background: #0000FF;
+width: 28%;
+height: 5%;
+margin-inline-start: -4%;
+margin-block-start: 40%;
+text-align: center;
+font-family: 'Lancelot', cursive;
+color: white;
+position: absolute;
+}
+.name::before {
+    content: "Arthur";
+
+}
+}
+@media only screen and (max-width: 1000px) and (max-height: 500px) {
+    .name {
+        color:black;
+        font-size: 3rem;
+        border: 10px #C70039 solid;
+        background: #0000FF;
+    width: 28%;
+    height: 11%;
+    margin-inline-start: -4%;
+    margin-block-start: 20%;
+    text-align: center;
+    font-family: 'Lancelot', cursive;
+    color: white;
+    position: absolute;
+    }
+    .name::before {
+        content: "Arthur";
+    
+    }   
+}
+
+
+@media only screen and (max-width: 1700px) and (max-height: 2300px) {
+    .name {
+        color:black;
+        font-size: 3rem;
+        border: 10px #C70039 solid;
+        background: #f2f2fc;
+    width: 40%;
+    height: 5%;
+    margin-inline-start: -4%;
+    margin-block-start: 50%;
+    text-align: center;
+    font-family: 'Lancelot', cursive;
+    color: white;
+    position: absolute;
+    font-size:6rem;    
+}
+}
+
+@media only screen and (max-width: 2300px) and (max-height: 1700px) {
+    .name {
+        color:black;
+        font-size: 3rem;
+        border: 10px #C70039 solid;
+        background: #0000FF;
+    width: 20%;
+    height: 5%;
+    margin-inline-start: -3%;
+    margin-block-start: 20%;
+    text-align: center;
+    font-family: 'Lancelot', cursive;
+    color: white;
+    position: absolute;
+    font-size: 4rem;
+    }
+    .name::before {
+        content: "Arthur Day";
+    
+    }
+}

@@ -1,0 +1,92 @@
+html {
+width: 100vw;
+}
+.sun {
+    position: absolute;
+    width: 10rem;
+    margin-inline-start: 85%;
+    margin-block-start: 5.420%;
+    animation: sunSping 180s infinite; 
+}
+
+
+@keyframes sunSping {
+    
+    0%{transform: rotate(0deg);}
+    25%{transform: rotate(360deg);}
+    50%{transform: rotate(720deg);}
+    75%{transform: rotate(1080deg);}
+   100%{transform: rotate(1440deg);
+    }
+}
+
+.cloud1 {
+width: 25rem;
+height: ;
+position: absolute;
+animation: cloudOne 120s infinite; 
+z-index: 2;
+
+}
+
+.cloud2 {
+    width: 5rem;
+    height: ;
+    position: absolute;
+    animation: cloudTwo 110s infinite; 
+  
+
+}
+.cloud3 {
+    width: 10rem;
+    height: ;
+position: absolute;    
+animation: cloudThree 120s infinite; 
+z-index: 2;
+overflow: hidden;
+}
+
+@keyframes cloudOne {
+    0%{top: 70%; right: 30%; }
+    90% {top: 70%; right: 120%; width:20rem; }
+    90.1%{width: .001rem;}
+    99.2% {top: 75%; right: 24%; width: .001rem;}
+    99.3% {top: 75%; right: 24.3%; width: 2rem; display:;}
+    99.4% {top: 75%; right: 24.4%; width: 4rem;}
+    99.5% {top: 75%; right: 24.5%; width: 8rem; }
+    99.6% {top: 75%; right: 24.6%; width: 12rem; }
+    99.7% {top: 75%; right: 24.7%; width: 16rem;}
+    99.8% {top: 75%; right: 24.8%; width: 20rem;}
+    99.9% {top: 75%; right: 24.9%; width: 24rem;}
+    100% {top: 70%; right: 25%; width: 20rem;}
+}
+@keyframes cloudTwo {
+    0%{top: 60%; right: 24%;}
+    90% {top: 69%; right: 120%; width: 3.5rem;}
+    90.1%{width: .001rem;}
+    99.2% {top: 75%; right: 20%; width: .001rem;}
+    99.32% {top: 70%; right: 20%; width: 2rem;}
+    99.4% {top: 70%; right: 20%; width: 1rem;}
+    99.5% {top: 70%; right: 21%; width: 2rem; }
+    99.6% {top: 69%; right: 22%; width: 4rem; }
+    99.7% {top: 67%; right: 23%; width: 6rem;}
+    99.8% {top: 65%; right: 24%; width: 8rem;}
+    99.9% {top: 63%; right: 24%; width: 6rem;}
+    100% {top: 60%; right: 24%; width: 4rem;}
+}
+
+@keyframes cloudThree {
+    0%{top: 80%; right: 50%; overflow: auto;}
+    50%{top: 83%; right: 124%;overflow: auto; width: 10rem;} 
+    50.01% {top: 80%; right: 125%; width: 0.001rem; transform: rotate(0deg);}  
+    50.02% {top: 80%; right: 5%; width: 0.001rem; transform: rotate(0deg);} 
+   50.2% {top: 80%; right: 5%; width:1rem; transform: rotate(90deg) }
+   51% {top: 80%; right: 5%; width:2rem; transform: rotate(180deg) }
+   52% {top: 80%; right: 5%; width:4rem; transform: rotate(90deg) }
+   53% {top: 80%; right: 5%; width:8rem; transform: rotate(180deg) }
+   53.5% {top: 80%; right: 5%; width:10rem; transform: rotate(0deg) }
+100% {top: 80%; right: 50%; }
+}
+
+.columns {
+}
