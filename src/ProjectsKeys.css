@@ -20,6 +20,7 @@ left: 27vw;
 justify-content: space-around;
 gap: 10%;
 flex-direction: column;
+display: none;
 }
 .html {
     width: 50vw;
