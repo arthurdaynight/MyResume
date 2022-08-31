@@ -47,7 +47,8 @@ display: none;
 .ai {
     width: 50vw;
     border-radius: 15%;
-
+position: aboslute;
+top: 2000%;
 }
 .github {
     width: 12vw;
