@@ -1,8 +1,5 @@
 @media only screen and (max-width: 500px) {
-.phoneFlexContainer{
-    display: flex;
-    flex-direction: column;
-}    
+    
 .projectContainer1{
     display: flex;
     
@@ -18,7 +15,7 @@ width: 51vw;
 display: flex;
 width: 51vw;
 position: absolute;
-top: 252%;
+top: 262%;
 left: 27vw;
 justify-content: space-around;
 gap: 10%;
