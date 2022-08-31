@@ -70,7 +70,7 @@ display: none;
 
 }
 }
-@media only screen and (max-width: 1000px) and (max-height: 500px) {
+@media only screen and (min-width: 700px) and (max-width: 1000px) and (max-height: 500px) {
     .phoneFlexContainer{
         display: flex;
         flex-direction: column;
@@ -95,7 +95,8 @@ display: none;
     justify-content: space-around;
     gap: 10%;
     flex-direction: column;
-    }
+    
+}
     .html {
         width: 30vw;
         border-radius: 15%;
