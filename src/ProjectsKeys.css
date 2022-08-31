@@ -49,6 +49,7 @@ display: none;
     border-radius: 15%;
 position: aboslute;
 top: 2000%;
+display: none;
 }
 .github {
     width: 12vw;
