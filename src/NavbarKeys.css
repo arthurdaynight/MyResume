@@ -26,7 +26,7 @@
         background-color: white;
         justify-content: space-between;
        height: 2.5rem;
-       width: 104vw;
+       width: 104.80vw;
     }
     
     .icons {
@@ -37,16 +37,16 @@
     
 }
 
-@media only screen and (max-width: 1700px) and (max-height: 2300px) {
+@media only screen and (min-width: 1500px ) and (max-width: 1700px)  and (min-height:2000px) and (max-height: 2300px) {
     .bar {
         position: absolute;
-        margin-block-start: -0.35%;
+        margin-block-start: -0.52%;
         margin-inline-start: -2%;
         display: flex;
         background-color: white;
         justify-content: space-between;
        height: 5rem;
-       width: 104vw;
+       width: 104.9vw;
     }
 
     .icons {
@@ -68,7 +68,7 @@
 }
 
 
-@media only screen and (max-width: 2300px ) and (max-height: 1700px) {
+@media only screen and (min-width: 2000px )and (max-width: 2500px ) and (min-height:1500px) and (max-height: 1900px) {
     .bar {
         position: absolute;
         margin-block-start: -0.35%;
@@ -77,7 +77,7 @@
         background-color: white;
         justify-content: space-between;
        height: 5rem;
-       width: 104vw;
+       width: 104.75vw;
     }
 
     .icons {

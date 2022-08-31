@@ -5,9 +5,9 @@ html {
     }
     .sun {
         position: absolute;
-        width: 7rem;
-        margin-inline-start: 73%;
-        margin-block-start: 75.420%;
+        width: 6rem;
+        margin-inline-start: 71%;
+        margin-block-start: 76.420%;
         animation: sunSping 180s infinite; 
     }    
     @keyframes sunSping {
@@ -168,15 +168,15 @@ html {
      
 }
 
-@media only screen and (max-width: 1700px) and (max-height: 2300px) {
+@media only screen and (min-width: 1500px ) and (max-width: 1700px)  and (min-height:2000px) and (max-height: 2300px) {
     html {
         width: 100vw;
         }
         .sun {
             position: absolute;
-            width: 30rem;
-            margin-inline-start: 73%;
-            margin-block-start: 35.420%;
+            width: 20rem;
+            margin-inline-start: 75%;
+            margin-block-start: 37.420%;
             animation: sunSping 180s infinite; 
         }    
         @keyframes sunSping {
@@ -253,7 +253,7 @@ html {
 
 }
 
-@media only screen and (max-width: 2300px) and (max-height: 1700px) {
+@media only screen and (min-width: 2000px )and (max-width: 2500px ) and (min-height:1500px) and (max-height: 1900px) {
     html {
         width: 100vw;
         }

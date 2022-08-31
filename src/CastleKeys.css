@@ -94,12 +94,12 @@
         
         }
         .woodFrame {
-            width:  104vw;
+            width:  104.5vw;
             height: 10vh;   
         }
         
         .castleblue{
-            width:  104vw;
+            width:  104.5vw;
             height: 70vh;
         }
         
@@ -167,8 +167,8 @@
         }
         
     }
-@media only screen and (max-width: 1700px) and (max-height: 2300px) {
-    .medivalcontainer{
+    @media only screen and (min-width: 1500px ) and (max-width: 1700px)  and (min-height:2000px) and (max-height: 2300px) {
+        .medivalcontainer{
         display: flex;
         flex-direction: column;
         position: absolute;
@@ -177,7 +177,7 @@
     
     }
     .woodFrame {
-        width:  104.5vw;
+        width:  104.80vw;
         height: 10vh;   
     }
     
@@ -251,15 +251,15 @@
    
     }
     
-    @media only screen and (max-width: 2300px ) and (max-height: 1700px) {
-        .medivalcontainer{
+    @media only screen and (min-width: 2000px )and (max-width: 2500px ) and (min-height:1500px) and (max-height: 1900px) {
+        .medivalcontainer {
             display: flex;
             flex-direction: column;
             position: absolute;
             top: 45.5%;
             margin-inline-start: -1.8%;
-        
         }
+
         .woodFrame {
             width:  104.5vw;
             height: 10vh;   
